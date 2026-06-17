@@ -2,7 +2,7 @@
 
 Welcome to **Nice Gadgets**, a fully functional e-commerce product catalog for smartphones, tablets, and accessories. This is my **first large-scale frontend development project**, built from scratch to demonstrate modern web development practices, complex state management, and strict architectural patterns.
 
-[Live Demo] (https://yevhen-srdk.github.io/react_phone-catalog/) • [Design Figma] (https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog--V2--Original?node-id=0-1&p=f&t=1qBFWfT8LGZC58q0-0)
+[Live Demo](https://yevhen-srdk.github.io/react_phone-catalog/) • [Design Figma](https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog--V2--Original?node-id=0-1&p=f&t=1qBFWfT8LGZC58q0-0)
 
 ---
 
