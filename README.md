@@ -39,11 +39,11 @@ The project follows an advanced modular architecture to ensure clean separation 
 
 ```text
 src/
-├── context/             # Global React Contexts (e.g., Cart, Favorites, Theme)
-├── hooks/               # Custom hooks (e.g., useDebounce, useLocalStorage)
+├── context/             # Global React Contexts (e.g., Cart, Favorites)
+├── hooks/               # Custom hooks (e.g., usePagination, useCatalogParams)
 ├── modules/             # Page-based modules (Feature-driven approach)
 │   ├── HomePage/        # Logic, styles, and assets for the Home page
-│   │   └── components/  # Local subcomponents (e.g., Slider, HotPrices, Categories)
+│   │   └── components/  # Local subcomponents (e.g., Slider, NewModels, HotPrices, Categories)
 │   ├── CartPage/        # Logic and styles for the Shopping Cart
 │   │   └── components/  # Local subcomponents (e.g., CartCard, Modal for checkout)
 │   ├── ProductDetailsPage/
