@@ -77,4 +77,4 @@ src/
 🧑‍💻 Author
 
 Developed with 💻 by Yevhen as a student at Mate Academy. Feel free to connect with me or review my code!
-GitHub: @Yevhen-Srdk
+GitHub: [@Yevhen-Srdk](https://github.com/Yevhen-Srdk)
