@@ -3,6 +3,7 @@ import { HeaderNav } from './components/HeaderNav';
 import styles from './Header.module.scss';
 import { useAppContext } from '../../../../context/AppContext';
 import { Counter } from './components/Counter';
+import { Search } from './components/Search';
 
 const getActiveClass = (isActive: boolean) => {
   return `${styles.icon} ${isActive ? styles.activeIcon : ''}`;
@@ -15,6 +16,7 @@ type Props = {
 
 export const Header = ({ isMenuOpen, setIsMenuOpen }: Props) => {
   const { favoritesIds, cartIds } = useAppContext();
+
   const handleClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -33,6 +35,9 @@ export const Header = ({ isMenuOpen, setIsMenuOpen }: Props) => {
 
           <HeaderNav />
         </div>
+
+        <Search />
+
         <div className={styles.right}>
           <NavLink
             className={({ isActive }) => {
